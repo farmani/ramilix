@@ -1,22 +1,22 @@
 {
-  "name": "yiisoft/yii2-app-advanced",
-  "description": "Yii 2 Advanced Project Template",
+  "name": "farmani/ramilix",
+  "description": "Free and OpenSource personal website",
   "keywords": [
-    "yii2",
-    "framework",
-    "advanced",
-    "project template"
+    "ramilix",
+    "cms",
+    "blog",
+    "personal website"
   ],
-  "homepage": "http://www.yiiframework.com/",
-  "type": "yii2-extension",
-  "license": "BSD-3-Clause",
-  "support": {
-    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-    "forum": "http://www.yiiframework.com/forum/",
-    "wiki": "http://www.yiiframework.com/wiki/",
-    "irc": "irc://irc.freenode.net/yii",
-    "source": "https://github.com/yiisoft/yii2"
-  },
+  "homepage": "http://www.ramilix.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ramin Farmani",
+      "email": "ramin.farmani@gmail.com",
+      "homepage": "http://ramilix.com",
+      "role": "Developer"
+    }
+  ],
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
@@ -26,13 +26,16 @@
     "yiisoft/yii2-imagine": "~2.0.0",
     "yiisoft/yii2-jui": "~2.0.0",
     "yiisoft/yii2-redis": "~2.0.0",
-    "yiisoft/yii2-twig": "~2.0.0"
+    "yiisoft/yii2-twig": "~2.0.0",
+    "algolia/algoliasearch-client-php": "1.5.*",
+    "creocoder/yii2-flysystem": "0.8.*"
   },
   "require-dev": {
     "yiisoft/yii2-codeception": "*",
     "yiisoft/yii2-debug": "*",
     "yiisoft/yii2-gii": "*",
-    "yiisoft/yii2-faker": "*"
+    "yiisoft/yii2-faker": "*",
+    "squizlabs/php_codesniffer": "^2.3"
   },
   "config": {
     "process-timeout": 1800

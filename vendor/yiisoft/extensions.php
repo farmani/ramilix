@@ -93,4 +93,13 @@ return array (
       '@yii/twig' => $vendorDir . '/yiisoft/yii2-twig',
     ),
   ),
+  'creocoder/yii2-flysystem' => 
+  array (
+    'name' => 'creocoder/yii2-flysystem',
+    'version' => '0.8.1.0',
+    'alias' => 
+    array (
+      '@creocoder/flysystem' => $vendorDir . '/creocoder/yii2-flysystem/src',
+    ),
+  ),
 );

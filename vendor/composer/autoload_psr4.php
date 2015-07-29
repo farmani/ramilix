@@ -18,6 +18,8 @@ return array(
     'yii\\codeception\\' => array($vendorDir . '/yiisoft/yii2-codeception'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'creocoder\\flysystem\\' => array($vendorDir . '/creocoder/yii2-flysystem/src'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
+    'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );

@@ -39,6 +39,15 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/flexycard',
+                'baseUrl' => '@web/themes/flexycard',
+                'pathMap' => [
+                    '@app/views' => '@app/themes/flexycard',
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
